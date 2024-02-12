@@ -7,7 +7,7 @@ using namespace std;
 int N, M;
 bool dat[9];
 vector<int> num;
-
+//중복허용하지 않는 순열
 void recur(int node) {
 	if (node == M+1) {
 		for (int i = 0; i < num.size(); i++) cout << num[i] << " ";
