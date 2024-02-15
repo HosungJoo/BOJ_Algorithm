@@ -15,10 +15,7 @@ void Union(int x, int y) {
 	 int py = find(y);
 
 	if (px == py) return;
-	if (Size[px] < Size[py])
-		swap(px, py);
-	parent[py] = px;
-	Size[px] += Size[py];
+	parent[px] =py;
 }
 
 int main() {
