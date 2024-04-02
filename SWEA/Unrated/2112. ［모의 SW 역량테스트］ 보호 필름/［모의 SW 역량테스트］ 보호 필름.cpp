@@ -62,7 +62,7 @@ void dfs(int lv) {
 		return;
 	}
 
-	if (injection > ans) {
+	if (injection >= ans) {
 		return;
 	}
 
