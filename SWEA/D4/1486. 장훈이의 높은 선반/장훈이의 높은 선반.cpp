@@ -18,7 +18,7 @@ void input() {
 	for (int i = 0; i < N; i++) {
 		cin >> per[i];
 	}
-	//sort(per, per + N);
+	sort(per, per + N);
 }
 
 void bcktr(int lv, int sum) {
