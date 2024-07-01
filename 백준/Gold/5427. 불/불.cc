@@ -12,7 +12,7 @@ struct info {
 };
 
 int row, col;
-char map[1001][1001];
+char map[1001][1001]; //1000X1000일때 바깥쪽 접근하려면 1001X1001 map이어야 가능 이거 안해서 한 번 실수남
 int visited[1000][1000];
 int dx[] = { -1,1,0,0 };
 int dy[] = { 0,0,-1,1 };
