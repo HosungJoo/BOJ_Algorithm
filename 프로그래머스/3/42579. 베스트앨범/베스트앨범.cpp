@@ -1,3 +1,4 @@
+//모든 "장르별"로 최대 2곡씩이라는 말이 제대로 안나타나서 실수함 
 #include <string>
 #include <vector>
 #include <unordered_map>
