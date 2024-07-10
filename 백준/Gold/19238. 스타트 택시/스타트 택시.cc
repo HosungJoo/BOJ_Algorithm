@@ -1,6 +1,8 @@
 #include <iostream>
 #include <queue>
 
+//승객은 위치가 서로 다르지만 도착지는 지맴대로 겹칠 수 도 있는 것을 유의해야한다
+
 using namespace std;
 
 //손님을 도착지로 데려다 줄 때마다 연료가 충전
