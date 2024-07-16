@@ -1,6 +1,8 @@
 #include <iostream>
 #include <algorithm>
 
+//N=1일 때를 잘 생각해라
+
 using namespace std;
 
 int tri[500][500];
