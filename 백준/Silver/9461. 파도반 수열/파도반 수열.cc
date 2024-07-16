@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//long long 범위를 잘 체크해라
+
 long long dp[101];
 
 int main()
