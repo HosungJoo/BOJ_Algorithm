@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//set을 쓰는 게 중요함
+
 int U,B;
 int visited[8];
 vector<int> log;
