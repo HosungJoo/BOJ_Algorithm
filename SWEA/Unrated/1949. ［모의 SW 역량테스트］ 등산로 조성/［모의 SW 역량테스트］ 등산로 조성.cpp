@@ -2,6 +2,8 @@
 #include<cstring>
 #include<algorithm>
 
+//최대K높이까지 딱 한 곳만 팔 수 있음을 유의하자 (여러곳 파는 걸로 착각함)
+
 using namespace std;
 
 int N;
